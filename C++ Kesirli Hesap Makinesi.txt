@@ -1,0 +1,90 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  double ilkpy,ilkpyd,ikipy,ikipyd,sonuc;
+  int secim;
+  
+  
+  cout<<"**********HESAP MAKINESI********** \n\n\n";
+  
+  
+  cout<<"Birinci sayi pay giriniz:";
+  		cin>>ilkpy;
+ 
+  cout<<"Birinci sayi payda giriniz:";
+  		cin>>ilkpyd;
+  			
+  cout<<"Ikinci sayi pay giriniz:";
+  		cin>>ikipy;
+
+  cout<<"Ikinci sayi payda giriniz:";
+  		cin>>ikipyd;
+  		
+  		cout<<"YAPMAK ISTEDIGINIZ ISLEM NEDIR\n     (1)TOPLAMA\n     (2)CIKARMA\n     (3)CARPMA\n     (4)BOLME\n";
+  		
+  	
+	  while(true){
+  		cin>>secim;
+  		cout<<"Seciminiz: "<< secim ;
+  		
+  		
+  	switch (secim) {
+  		
+  		
+  			
+  		case 1:
+ 			sonuc=(ilkpy/ilkpyd)+(ikipy/ikipyd);
+  				cout<<"\nSonucunuz:"<< sonuc<<endl;
+  				cout<<"Baska bir islem yapmak istiyorsaniz islem seciniz   ";
+  				
+  				break;
+  		case 2:
+		    sonuc=(ilkpy/ilkpyd)-(ikipy/ikipyd);	
+  				cout<<"\nSonucunuz:"<< sonuc<<endl;
+  				cout<<"Baska bir islem yapmak istiyorsaniz islem seciniz ";
+  				
+  				break;
+  		
+  		case 3:
+		    sonuc=(ilkpy/ilkpyd)*(ikipy/ikipyd);	
+  				cout<<"\nSonucunuz:"<< sonuc<<endl;
+  				cout<<"Baska bir islem yapmak istiyorsaniz islem seciniz  ";
+  				
+  				break;
+  			
+  		case 4:
+		    sonuc=(ilkpy/ilkpyd)/(ikipy/ikipyd);	
+  				cout<<"\nSonucunuz:"<< sonuc<<endl;
+  				cout<<"Baska bir islem yapmak istiyorsaniz islem seciniz ";
+  				
+  				break;
+  		
+  		
+  		
+  		
+  		default :
+  			cout<<"\nYanlis islem sectiniz yeniden islem seciniz:";
+  						
+  		
+  			 }
+			
+		  }
+		  
+	  }
+  		
+  			
+  			
+  			
+  		
+  		
+  		
+  		
+	  
+
+
+	
+  
+  
+
